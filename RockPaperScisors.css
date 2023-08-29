@@ -1,0 +1,78 @@
+body{
+    background-color: rgb(63, 63, 63);
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.divv{
+    margin-top: 2%; 
+    margin-left: 30%;
+}
+
+
+.resultat{
+    border: 3px solid white;
+    height: 204.8px;
+    width: 504.8px;
+    margin-left: 30%;
+    margin-top: 2%;
+    margin-bottom: -20px;
+}
+
+.js-result{
+    margin-left: 27%;
+}
+
+.result{
+    margin-left: 4%;
+    margin-top: 4%;
+}
+
+
+.button{
+    width: 150px;
+    height: 150px;
+    background-color: black;
+    font-size: 20px;
+    border: 3px solid white;
+    border-radius:75px ;
+    cursor: pointer;
+    margin-right: 10px;
+}
+.previous-move{
+    width: 60px;
+    height: 60px;
+    background-color: transparent;
+    font-size: 20px;
+    margin-top: 0%;
+}
+
+
+.two-spaces::before {
+    content: "\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0";
+    white-space: pre;
+  }
+  
+
+.reset{
+    margin-left: 30%; 
+    margin-top: 2%; 
+    width: 140px;
+    height: 40px;
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    border: 1px ;
+    border-radius: 10px;
+    font-size: 20px;
+    cursor: pointer;
+    margin-bottom: 1%;
+}
+
+.previous{
+    margin-left: 30%;
+}
+
+.icon{
+    height: 100px;
+}
+

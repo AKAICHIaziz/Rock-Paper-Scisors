@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rock-Paper-Scisors</title>
+    <link rel="stylesheet" href="RockPaperScisors.css">
+    <script src="RockPaperScisors.js"></script>
+</head>
+
+<body>
+
+    <div class="divv">
+        <h3>Click a button to start the game :</h3>
+        <button class="button" onclick="play('rock')"><img src="rock.png" class="icon"></button>
+        <button class="button" onclick="play('paper')"><img src="paper.png" class="icon"></button>
+        <button class="button" onclick="play('scisor')"><img src="scisor.png" class="icon"></button>
+    </div>
+
+    <div class="resultat">
+        <h1 class="result">PLAY</h1>
+        <h3 class="js-result">You<span class="two-spaces"></span>Computer</h3>
+    </div>
+
+
+    <p class="previous" style="margin-top: 5%;">Your scores</p>
+
+    <div style="display: flex; align-items: center; margin-bottom:-30px; margin-top: -20px;">
+        <h3 class="previous">Wins:</h3>&nbsp;<h3 id="wins"></h3>
+    </div>
+    <div style="display: flex; align-items: center; margin-bottom:-30px;">
+        <h3 class="previous">Losses:</h3>&nbsp;<h3 id="losses"></h3>
+    </div>
+    <div style="display: flex; align-items: center; margin-bottom:-30px;">
+        <h3 class="previous">Tie:</h3>&nbsp;<h3 id="tie"></h3>
+    </div>
+    <button class="reset" onclick="resetThisScore()">Reset score</button>
+
+
+</body>
+
+</html>
